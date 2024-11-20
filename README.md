@@ -14,8 +14,8 @@ En este archivo `.csv` se tiene una lista de todos los menús con el nombre del 
 
 ## Orders
 
-Es una tabla con todos los pedidos que realizaron los clientes, en el cual se muestra el id del cliente (`user_id`), el id de la orden (`order_id`), el tipo de menú que pidió (`meal_id`) y la cantidad de ese menú que pidió (`order_quantity`).
+Es una tabla con todos los pedidos que realizaron los clientes, en el cual se muestra el id del cliente (`user_id`), el id de la orden (`order_id`), el tipo de menú que pidió (`meal_id`) y la cantidad de ese menú que pidió (`order_quantity`) y la fecha en que realizaron el pedido (`order_date`).
 
 ## Stock
 
-Es la lista de lo que se tiene la cantidad de comida que se compra a los restaurantes, esta compra se realiza el 1er día de cada mes.
+Es la lista de lo que se tiene la cantidad de comida que se compra a los restaurantes, esta compra se realiza el 1er día de cada mes. Se indica la fecha en que se realizó la compra (`stocking_date`), el tipo de menú (`meal_id`) y la cantidad que se compró de ese menú (`stocked_quantity`).
